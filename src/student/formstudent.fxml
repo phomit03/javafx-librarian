@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="1100.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="assigment01.student.StudentInput">
+   <children>
+      <Text layoutX="440.0" layoutY="85.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Add Student">
+         <font>
+            <Font name="System Bold" size="37.0" />
+         </font>
+      </Text>
+      <TextField fx:id="inputsMaSV" layoutX="125.0" layoutY="150.0" prefHeight="49.0" prefWidth="367.0" promptText="Input MaSV" />
+      <TextField fx:id="inputsName" layoutX="606.0" layoutY="150.0" prefHeight="49.0" prefWidth="367.0" promptText="Input Hoten" />
+      <TextField fx:id="inputsDate" layoutX="125.0" layoutY="228.0" prefHeight="49.0" prefWidth="367.0" promptText="Input Ngaysinh (YYYY-MM-dd)" />
+      <TextField fx:id="inputsGender" layoutX="606.0" layoutY="230.0" prefHeight="49.0" prefWidth="367.0" promptText="Input Gioitinh (NULL or 0: Nu, 1:Nam, 2:Other)" />
+      <TextArea fx:id="inputsAddress" layoutX="125.0" layoutY="311.0" prefHeight="136.0" prefWidth="847.0" promptText="Input Diachi" />
+      <Text fx:id="errorMsg" fill="#1a00ff" layoutX="202.0" layoutY="479.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ErrorMsg" textAlignment="CENTER" visible="false" wrappingWidth="697.0" />
+      <Button layoutX="790.0" layoutY="509.0" mnemonicParsing="false" onAction="#submitSt" prefHeight="49.0" prefWidth="184.0" text="Submit" />
+      <Button layoutX="125.0" layoutY="509.0" mnemonicParsing="false" onAction="#backListSt" prefHeight="49.0" prefWidth="184.0" text="&lt;&lt; Back" />
+   </children>
+</Pane>

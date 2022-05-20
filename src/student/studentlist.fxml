@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="1100.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="assigment01.student.StudentList">
+   <children>
+      <TableView fx:id="tbStudent" layoutX="55.0" layoutY="124.0" prefHeight="494.0" prefWidth="1011.0">
+         <columns>
+            <TableColumn fx:id="sMaSV" prefWidth="120.0" text="MaSV" />
+            <TableColumn fx:id="sName" prefWidth="204.0" text="Hoten" />
+            <TableColumn fx:id="sDate" prefWidth="145.0" text="Ngaysinh" />
+            <TableColumn fx:id="sGender" prefWidth="103.0" text="Gioitinh" />
+            <TableColumn fx:id="sAddress" prefWidth="194.0" text="Diachi" />
+            <TableColumn fx:id="sEdit" prefWidth="121.0" text="Edit" />
+            <TableColumn fx:id="sDel" prefWidth="123.0" text="Delete" />
+         </columns>
+      </TableView>
+      <Text layoutX="443.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Students List:" underline="true">
+         <font>
+            <Font name="System Bold" size="34.0" />
+         </font>
+      </Text>
+      <Button layoutX="55.0" layoutY="66.0" mnemonicParsing="false" onAction="#backHome" prefHeight="45.0" prefWidth="189.0" text="&lt;&lt;Back Home" />
+      <Button layoutX="877.0" layoutY="66.0" mnemonicParsing="false" onAction="#addSt" prefHeight="45.0" prefWidth="189.0" text="Add Student" />
+   </children>
+</Pane>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="1100.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text fontSmoothingType="LCD" layoutX="477.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Book List:" underline="true">
+         <font>
+            <Font name="System Bold" size="32.0" />
+         </font>
+      </Text>
+      <Button layoutX="821.0" layoutY="55.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="239.0" text="Add book&gt;&gt;">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <TableView layoutX="41.0" layoutY="120.0" prefHeight="503.0" prefWidth="1019.0">
+        <columns>
+          <TableColumn prefWidth="147.0" text="Masach" />
+          <TableColumn prefWidth="268.0" text="Tensach" />
+            <TableColumn prefWidth="252.0" text="Tacgia" />
+            <TableColumn prefWidth="100.0" text="Namxb" />
+            <TableColumn prefWidth="251.0" text="Nhaxb" />
+        </columns>
+      </TableView>
+      <Button layoutX="41.0" layoutY="55.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="239.0" text="&lt;&lt;BackHome">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>
